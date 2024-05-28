@@ -34,7 +34,13 @@ const euroPrices=lira.map((money)=>money/euro)
 console.log(euroPrices);
 
 //-----------
-const text="erkan sevim is a developer"
+const text="erkan Sevim is a developer"
 
 text.split(" ").map((a)=>a.toUpperCase()).forEach((a)=>console.log(a));
+
+text.split(" ").filter((a)=>a.startsWith("S")).map((a)=>a.slice(0,1).toLowerCase()+a.slice(1)).forEach((a)=>console.log(a))
+
+//------
+
+
 
