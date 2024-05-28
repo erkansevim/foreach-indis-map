@@ -21,3 +21,20 @@ fiyatlar.map((p, i, array)=>{
     }
 
 })
+
+//---------
+const lira =[100,150,200,80,50]
+const dolar=27.5;
+const euro=29.5;
+
+const dolarPrices=lira.map((money)=>money/dolar)
+console.log(dolarPrices);
+
+const euroPrices=lira.map((money)=>money/euro)
+console.log(euroPrices);
+
+//-----------
+const text="erkan sevim is a developer"
+
+text.split(" ").map((a)=>a.toUpperCase()).forEach((a)=>console.log(a));
+
